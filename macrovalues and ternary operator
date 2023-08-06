@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+#include<string>
+#define PI 3.14
+
+int main()
+{
+    int r=0;
+    cout<<"Enter the radius : ";
+    cin>>r;
+    cout<<((r>0) ? to_string(PI*r*r): ("wrong input"));
+    return 0;
+
+}
